@@ -17,5 +17,16 @@ Space Missions (1957–2022)
 | Rocket | Texto | Nome do foguete |
 | Mission | Texto | Nome da missão |
 | RocketStatus | Texto | Status do foguete |
-| Price | Decimal | Custo da missão |
+| Price | Decimal | Custo informado da missão, em milhões de USD; 3.365 valores ausentes |
 | MissionStatus | Texto | Resultado da missão |
+
+## Valores categóricos
+
+- `MissionStatus`: Success, Failure, Partial Failure e Prelaunch Failure.
+- `RocketStatus`: Active ou Retired.
+
+## Qualidade
+
+- `Time`: 127 valores ausentes.
+- `Price`: 3.365 valores ausentes (72,68%).
+- As demais colunas não possuem valores ausentes no arquivo original.
