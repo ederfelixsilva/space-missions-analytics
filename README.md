@@ -1,4 +1,3 @@
-# space-missions-analytics
 # Space Missions Analytics
 
 Análise ponta a ponta de **4.630 missões espaciais realizadas entre 1957 e 2022**. O projeto demonstra um fluxo completo de dados: arquivo CSV bruto, limpeza com Python, modelagem relacional no MariaDB, consultas SQL e visualizações orientadas a negócio.
